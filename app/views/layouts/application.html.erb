@@ -12,7 +12,7 @@
 
   <header>
     <% if logged_in? %>
-      <%= link_to "ブログ一覧へ", picture_blogs_path %>
+      <%= link_to "ブログ一覧へ", pictures_path %>
       <%= link_to "プロファイル", user_path(current_user.id) %>
       <%= link_to "ログアウト", session_path(current_user.id), method: :delete %>
     <% else %>

@@ -17,7 +17,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    redirect_to pictures_path, notice: "不正操作を記録しました。" unless current_user.id == @users.id
+    # redirect_to pictures_path, notice: "不正操作を記録しました。" unless current_user.id == @users.id
   end
 
   private
