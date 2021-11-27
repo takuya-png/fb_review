@@ -18,3 +18,15 @@ header {
   border-left: 5px dotted #000;
   background: #f4f4f4;
 } 
+
+body , html {
+  padding:0; /*　追加*/
+  margin:0; /*　追加*/
+  height: 100%;
+}
+
+footer {
+  font-size: small;
+  border-left: 5px dotted #000;
+  background: #f4f4f4;
+} 
