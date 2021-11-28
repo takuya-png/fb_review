@@ -17,6 +17,7 @@ header {
   padding: 1rem 2rem;
   border-left: 5px dotted #000;
   background: #f4f4f4;
+  list-style: none;
 } 
 
 body , html {
@@ -29,4 +30,6 @@ footer {
   font-size: small;
   border-left: 5px dotted #000;
   background: #f4f4f4;
+  list-style: none;
 } 
+
